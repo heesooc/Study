@@ -63,6 +63,7 @@ public class People : MonoBehaviour
         Name = name;
         Age = age;
         _height = height;
+        _mbti = mbti;
     }
 
     // Get/Set -> 데이터(속성)를 외부에서 읽고 / 수정 시 무결성이 깨질 수 있으므로
