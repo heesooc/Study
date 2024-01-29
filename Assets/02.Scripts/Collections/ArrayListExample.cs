@@ -17,6 +17,9 @@ public class ArrayListExample : MonoBehaviour
         // * 컬렉션: 데이터를 저장하는 자료구조와 데이터를 처리하는 알고리즘을 구조화하여 편하게 클래스로 구현해 놓은 것
         // ArrayList, HashTable
 
+        // 컬렉션의 단점:
+        // "박싱/언박싱"으로 인해 성능적인 문제가 발생한다. // 그래서 ArrayList, HashTable 안쓴다고 함..
+
         // ArrayList: 필요에 따라 크기가 동적으로 변하는 배열
         // - 배열과 달리 크기를 지정할 필요가 없다.
         // - 특정 자료형 뿐만 아니라 여러 자료형의 데이터를 담을 수 있다. 
@@ -32,7 +35,7 @@ public class ArrayListExample : MonoBehaviour
         myList.Add("고승연");
         myList.Add(123);
         myList.Add(false);
-        myList.Add(232.1f);
+        myList.Add(232.1f); // 박싱
 
         // 인덱스를 이용한 데이터 조회
         Debug.Log(myList[0]);
