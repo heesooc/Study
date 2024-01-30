@@ -43,7 +43,7 @@ public class HashTableExample : MonoBehaviour
         Debug.Log("---------------------------------------------");
         foreach(var key in myTable.Keys)
         {
-            Debug.Log(myTable[key]); ///왜 순서 뒤죽박죽?
+            Debug.Log(myTable[key]); ///왜 순서 뒤죽박죽? 정렬 순서 보장x, 자체적인 출력
         }
 
         // 삭제

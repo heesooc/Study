@@ -33,5 +33,8 @@ public class ObjectExample : MonoBehaviour
         Debug.Log((object)boolValue);
 
 
+        int a = 3;
+        Debug.Log("a: " + a);
+
     }
 }
