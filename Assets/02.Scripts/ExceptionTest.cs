@@ -97,6 +97,4 @@ public class ExceptionTest : MonoBehaviour
             Debug.Log("형변환 실패!");
         }
     }
-
-    
 }
