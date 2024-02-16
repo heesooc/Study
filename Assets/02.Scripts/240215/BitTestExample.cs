@@ -23,7 +23,7 @@ public class BitTestExample : MonoBehaviour
         bool result4 = false; //false 내부적으로 8비트를 사용
         bool result5 = true; //false 내부적으로 8비트를 사용
 
-        short jender = 1;        // 8비트를 사용: ___11001
+        short gender = 1;        // 8비트를 사용: ___11001
                             // 극한의 메모리 용량 최적화를 하는 흑마법코드
         // 사용하기 어렵고 까다롭지만 알아둘 필요는 있다. 
 
