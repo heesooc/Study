@@ -14,6 +14,11 @@ public class FuncExample : MonoBehaviour
         Func<int, bool> a = IsOdd;
         Debug.Log(a(17));
 
+        // 람다표현식을 이용한 방식
+        // (매개'변수')  =>  {함수 내부(식)} // => (람다연산자)
+        Func<int, bool> b = num => num % 2 == 1;
+        Debug.Log(b(16));
+
     }
 
     // 홀수 판별 함수
